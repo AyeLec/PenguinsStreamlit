@@ -1,4 +1,4 @@
-# 🐧 Análisis de Pingüinos - EDA con Streamlit
+# 🐧 Análisis de Pingüinos - EDA y Montecarlo con Streamlit
 
 Aplicación interactiva desarrollada en **Python + Streamlit** para realizar un análisis exploratorio del dataset de *Palmer Penguins*.
 
