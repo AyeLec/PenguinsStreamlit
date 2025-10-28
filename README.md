@@ -54,5 +54,5 @@ Estimación probabilística: permite simular la probabilidad de observar un ping
 
 **Ayelen Lecman**
 
-🌐 [LinkedIn](https://www.linkedin.com/in/ayelecman)
+🌐 [LinkedIn](https://www.linkedin.com/in/ayelecman)  · 
 💻 [GitHub](https://github.com/AyeLec)
