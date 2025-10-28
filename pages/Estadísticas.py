@@ -3,6 +3,10 @@ import seaborn as sns
 import pandas as pd
 import plotly.express as px
 
+from utils import load_css
+
+load_css()
+
 st.set_page_config(page_title="Estadísticas descriptivas", layout="wide")
 
 st.title("📈 Estadísticas descriptivas")

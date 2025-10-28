@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import seaborn as sns
+from utils import load_css
+
+load_css()
 
 st.set_page_config(page_title="ETL", layout="wide")
 

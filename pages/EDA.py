@@ -2,6 +2,10 @@ import streamlit as st
 import plotly.express as px
 import seaborn as sns
 
+from utils import load_css
+
+load_css()
+
 st.set_page_config(page_title="EDA", layout="wide")
 
 st.title("📊 Análisis Exploratorio de Datos (EDA)")

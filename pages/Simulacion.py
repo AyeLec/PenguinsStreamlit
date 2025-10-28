@@ -3,6 +3,10 @@ import seaborn as sns
 import numpy as np
 import pandas as pd
 
+from utils import load_css
+
+load_css()
+
 st.set_page_config(page_title="Simulación Monte Carlo", layout="wide")
 
 st.title("🎲 Simulación de Monte Carlo")

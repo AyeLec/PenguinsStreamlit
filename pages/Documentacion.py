@@ -1,5 +1,9 @@
 import streamlit as st
 
+from utils import load_css
+
+load_css()
+
 st.set_page_config(page_title="Documentación", layout="wide")
 
 st.title("📚 Documentación del proyecto")

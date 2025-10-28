@@ -1,4 +1,5 @@
 import streamlit as st
+from utils import load_css
 
 st.set_page_config(
     page_title="Análisis de Pingüinos 🐧",
@@ -6,8 +7,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-with open("styles.css") as f:
-    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+load_css()
 
 st.title("Análisis de Pingüinos 🐧")
 st.markdown(

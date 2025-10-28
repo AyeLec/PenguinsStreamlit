@@ -36,3 +36,8 @@ button[kind="primary"] {
 [data-testid="stSidebar"] {
     background-color: #1E2227;
 }
+
+/* Ocultar ícono/link de anclaje en títulos generados por st.title/st.header/etc */
+[data-testid="stHeading"] a {
+    display: none !important;
+}
