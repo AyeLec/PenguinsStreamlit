@@ -1,0 +1,38 @@
+/* Ocultar íconos de anclaje */
+.stMarkdown a {
+    text-decoration: none;
+    display: none !important;
+}
+
+/* Estilo general */
+html, body, [class*="stApp"] {
+    background-color: #0E1117;
+    color: #E1E5EA;
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+    color: #F8F9FA;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Tablas */
+[data-testid="stDataFrame"] {
+    background-color: #1B1E23;
+    border-radius: 8px;
+}
+
+/* Botones */
+button[kind="primary"] {
+    background-color: #6C63FF !important;
+    color: white !important;
+    border-radius: 6px;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #1E2227;
+}
