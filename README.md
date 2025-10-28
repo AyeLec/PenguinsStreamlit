@@ -50,7 +50,7 @@ Estimación probabilística: permite simular la probabilidad de observar un ping
 - **Seaborn**
 - **Plotly**
 
-###👩‍💻 Autora
+##👩‍💻 Autora
 
 **Ayelen Lecman**
 
